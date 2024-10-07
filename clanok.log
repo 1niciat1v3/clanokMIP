@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  7 OCT 2024 13:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  7 OCT 2024 14:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -385,15 +385,26 @@ File: years.pdf Graphic file (type pdf)
 Package pdftex.def Info: years.pdf  used on input line 40.
 (pdftex.def)             Requested size: 227.62183pt x 284.55542pt.
 
-Overfull \hbox (127.47185pt too wide) in paragraph at lines 39--41
-[][] [] 
+Overfull \hbox (16.62782pt too wide) in paragraph at lines 39--41
+[][]
  []
 
-[1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./hujna.
-pdf> <./years.pdf>]
+Overfull \hbox (6.62183pt too wide) in paragraph at lines 39--41
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 3029) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
+local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
+
+
+ <./hujna.pdf> <./years.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 69.
 
@@ -411,8 +422,16 @@ LaTeX Warning: Citation `Czarnecki:Progress' on page 2 undefined on input line
 
 LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 71.
 
+
+Underfull \hbox (badness 1681) in paragraph at lines 102--103
+ []\IL2/cmr/bx/n/10 Veµmi dô-le-¾itá po-známka.[] \IL2/cmr/m/n/10 Nie-kedy je p
+o-
+ []
+
 No file clanok.bbl.
-[2] (./clanok.aux)
+[2
+
+] [3] (./clanok.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -421,37 +440,39 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: DCA731DA2FC82593BB099E907EB500F3;982.
  ) 
 Here is how much of TeX's memory you used:
- 11428 strings out of 474116
- 180101 string characters out of 5743682
+ 11430 strings out of 474116
+ 180136 string characters out of 5743682
  1934187 words of memory out of 5000000
- 33615 multiletter control sequences out of 15000+600000
- 571407 words of font info for 67 fonts, out of 8000000 for 9000
+ 33616 multiletter control sequences out of 15000+600000
+ 570830 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,340b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,340b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/local/texliv
-e/2024/texmf-dist/fonts/type1/public/cs/csbx9.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texmf-dist/font
-s/type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
-lic/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr6
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr7.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive/2024/texmf-dist/fonts
-/type1/public/cs/csti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
-lic/cs/cstt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/cst
-t9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600
-.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
-fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb
->
-Output written on clanok.pdf (2 pages, 109243 bytes).
+e/2024/texmf-dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pub
+lic/cs/csr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr7.
+pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/public/cs/csti10.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/cs/cstt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/pu
+blic/cs/cstt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm0600.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super
+/sfrm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/s
+frm1200.pfb>
+Output written on clanok.pdf (3 pages, 105935 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
