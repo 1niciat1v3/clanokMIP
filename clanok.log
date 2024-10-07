@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  7 OCT 2024 14:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  7 OCT 2024 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -516,10 +516,10 @@ o-
 <STU-FIIT-ancnh.pdf, id=38, 232.98141pt x 50.88148pt>
 File: STU-FIIT-ancnh.pdf Graphic file (type pdf)
 <use STU-FIIT-ancnh.pdf>
-Package pdftex.def Info: STU-FIIT-ancnh.pdf  used on input line 127.
+Package pdftex.def Info: STU-FIIT-ancnh.pdf  used on input line 138.
 (pdftex.def)             Requested size: 232.98083pt x 50.88135pt.
 
-Overfull \hbox (11.98083pt too wide) in paragraph at lines 127--128
+Overfull \hbox (11.98083pt too wide) in paragraph at lines 138--139
 [] 
  []
 
@@ -548,32 +548,33 @@ Package rerunfilecheck Info: Checksums for `clanok.out':
 Here is how much of TeX's memory you used:
  12157 strings out of 474116
  190170 string characters out of 5743682
- 1937187 words of memory out of 5000000
+ 1941187 words of memory out of 5000000
  34321 multiletter control sequences out of 15000+600000
  572182 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,9n,79p,340b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/public/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public
-/cs/csr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr7.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/public/cs/csti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/public/cs/cstt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
-c/cs/cstt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/
-sfrm0600.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sf
-rm1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm
-1200.pfb>
-Output written on clanok.pdf (3 pages, 322038 bytes).
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texmf-di
+st/fonts/type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
+pe1/public/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/
+cs/csr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr7.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/local/texlive/2024
+/texmf-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/public/cs/csti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
+pe1/public/cs/cstt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public
+/cs/cstt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/s
+frm0600.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfr
+m1000.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1
+200.pfb>
+Output written on clanok.pdf (3 pages, 330863 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
+ 173 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
