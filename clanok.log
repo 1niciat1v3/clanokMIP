@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  7 OCT 2024 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.16)  1 NOV 2024 16:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -440,91 +440,37 @@ LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line
 (/usr/local/texlive/2024/texmf-dist/tex/cslatex/base/il2cmtt.fd
 File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
-<hujna.pdf, id=4, 421.575pt x 391.4625pt>
-File: hujna.pdf Graphic file (type pdf)
-<use hujna.pdf>
-Package pdftex.def Info: hujna.pdf  used on input line 40.
-(pdftex.def)             Requested size: 227.6278pt x 284.54073pt.
-<years.pdf, id=5, 391.4625pt x 301.125pt>
-File: years.pdf Graphic file (type pdf)
-<use years.pdf>
-Package pdftex.def Info: years.pdf  used on input line 41.
-(pdftex.def)             Requested size: 227.62183pt x 284.55542pt.
 
-Overfull \hbox (16.62782pt too wide) in paragraph at lines 40--42
-[][]
+LaTeX Warning: Reference `nejaka' on page 1 undefined on input line 45.
+
+
+LaTeX Warning: Reference `dolezita' on page 1 undefined on input line 46.
+
+
+LaTeX Warning: Reference `dolezitejsia' on page 1 undefined on input line 46.
+
+
+LaTeX Warning: Reference `zaver' on page 1 undefined on input line 47.
+
+[1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[2] [3] [4]
+Overfull \hbox (0.29593pt too wide) in paragraph at lines 138--140
+[]\IL2/cmr/bx/n/10 Prístupnos» pro-stred-níc-tvom clou-do-vej in-fra-¹t-ruk-túr
+y \IL2/cmr/m/n/10 Git-Hub Co-
  []
 
-
-Overfull \hbox (6.62183pt too wide) in paragraph at lines 40--42
-[] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: Reference `nejaka' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Reference `dolezita' on page 1 undefined on input line 49.
-
-
-LaTeX Warning: Reference `dolezitejsia' on page 1 undefined on input line 49.
-
-
-LaTeX Warning: Reference `zaver' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Reference `f:rozhod' on page 1 undefined on input line 56.
-
-
-Underfull \vbox (badness 3029) has occurred while \output is active []
-
- [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
-local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-
-
- <./hujna.pdf> <./years.pdf>]
-
-LaTeX Warning: Reference `ina:nejake' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Reference `ina:nejake' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Czarnecki:Staged' on page 2 undefined on input line 72
-.
-
-
-LaTeX Warning: Citation `Czarnecki:Progress' on page 2 undefined on input line 
-72.
-
-
-LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 72.
-
-
-Underfull \hbox (badness 1681) in paragraph at lines 103--104
- []\IL2/cmr/bx/n/10 Veµmi dô-le-¾itá po-známka.[] \IL2/cmr/m/n/10 Nie-kedy je p
-o-
- []
-
-<STU-FIIT-ancnh.pdf, id=38, 232.98141pt x 50.88148pt>
+[5]
+<STU-FIIT-ancnh.pdf, id=72, 232.98141pt x 50.88148pt>
 File: STU-FIIT-ancnh.pdf Graphic file (type pdf)
 <use STU-FIIT-ancnh.pdf>
-Package pdftex.def Info: STU-FIIT-ancnh.pdf  used on input line 134.
+Package pdftex.def Info: STU-FIIT-ancnh.pdf  used on input line 157.
 (pdftex.def)             Requested size: 232.98083pt x 50.88135pt.
 
-Overfull \hbox (11.98083pt too wide) in paragraph at lines 134--135
-[] 
- []
-
 No file clanok.bbl.
-[2 <./STU-FIIT-ancnh.pdf>] [3] (./clanok.aux)
+[6 <./STU-FIIT-ancnh.pdf>] (./clanok.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -543,40 +489,32 @@ Package rerunfilecheck Warning: File `clanok.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `clanok.out':
 (rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  DCA731DA2FC82593BB099E907EB500F3;982.
+(rerunfilecheck)             After:  00E25534161402E21D71307B1491D26E;2662.
  ) 
 Here is how much of TeX's memory you used:
- 12157 strings out of 474116
- 190170 string characters out of 5743682
+ 12148 strings out of 474116
+ 189780 string characters out of 5743682
  1938187 words of memory out of 5000000
- 34321 multiletter control sequences out of 15000+600000
- 572182 words of font info for 72 fonts, out of 8000000 for 9000
+ 34291 multiletter control sequences out of 15000+600000
+ 570732 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,340b,527s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/local/texlive/2024/t
-exmf-dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texmf-dist/f
-onts/type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
-public/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/c
-sr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr7.pfb></us
-r/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive/2024/texmf-dist/fo
-nts/type1/public/cs/csti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/
-public/cs/cstt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/
-cstt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0
-600.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm100
-0.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
-pfb>
-Output written on clanok.pdf (3 pages, 347463 bytes).
+ 75i,7n,79p,613b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb></usr/loca
+l/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb></usr/local/texlive/
+2024/texmf-dist/fonts/type1/public/cs/csbx9.pfb></usr/local/texlive/2024/texmf-
+dist/fonts/type1/public/cs/csr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/
+type1/public/cs/csr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
+c/cs/csr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr8.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csr9.pfb></usr/loc
+al/texlive/2024/texmf-dist/fonts/type1/public/cs/cssl10.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/public/cs/cstt9.pfb></usr/local/texlive/2024/texmf
+-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2024/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on clanok.pdf (6 pages, 328777 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

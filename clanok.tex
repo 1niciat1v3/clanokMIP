@@ -1,6 +1,6 @@
 % Metódy inžinierskej práce
 
-\documentclass[10pt,twoside,slovak,a4paper, twocolumn]{article}
+\documentclass[10pt,twoside,slovak,a4paper, onecolumn]{article}
 
 \usepackage[slovak]{babel}
 \usepackage{pdfpages}
@@ -17,7 +17,7 @@
 
 \pagestyle{headings}
 
-\title{Názov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2024/2025, vedenie: Vladymír Mlynarovič}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Github Copilot. AI Asistent pre každého vyvojara\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2024/2025, vedenie: Vladymír Mlynarovič}} % meno a priezvisko vyučujúceho na cvičeniach
 
 \author{Nikita Kostrov\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
@@ -25,7 +25,7 @@
 	{\small \texttt{xkostrov@stuba.sk}}
 	}
 
-\date{\small 30.9 2024} % upravte
+\date{\small 3.11 2024} % upravte
 
 
 
@@ -37,9 +37,6 @@
 \ldots
 \end{abstract}
 
-\includegraphics[width=8cm, height=10cm]{hujna.pdf}
-\includegraphics[width=8cm, height=10cm]{years.pdf}
-
 \section{Úvod}
 
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
@@ -48,89 +45,115 @@ Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
 Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
 Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
 Záverečné poznámky prináša časť~\ref{zaver}.
+\section{Začiatok GitHub Copilot}
+GitHub Copilot je produkt vytvorený v spolupráci GitHub a OpenAI, prvýkrát predstavený v júni 2021. Tento nástroj je založený na modeli umelej inteligencie s názvom Codex, vyvinutom spoločnosťou OpenAI. Codex je podobný modelu GPT-3, ale je špeciálne trénovaný na obrovskom objeme programového kódu, aby porozumel kontextu kódu a pomáhal vývojárom tým, že predvída riadky kódu, ktoré by mohli potrebovať. Pozrime sa podrobnejšie na to, ako prebiehalo trénovanie tohto modelu a aké názory naň existujú medzi vývojármi a technologickou komunitou.
 
+\subsection{Ako bola trénovaná neurónová sieť pre GitHub Copilot?}
+Codex bol trénovaný na miliardách riadkov otvoreného kódu z verejných repozitárov GitHub a iných otvorených zdrojov. V procese učenia model analyzoval kód v rôznych programovacích jazykoch, aby pochopil syntax, štruktúru, bežné vzory a najlepšie praktiky. Základom je hlboké učenie, kde model vytvára vzťahy medzi rôznymi konštrukciami kódu a ich účelom.
 
+Tento prístup umožnil modelu nielen naučiť sa jazyk, ale aj pochopiť, ako aplikovať svoje znalosti v reálnych situáciách. Analyzuje počiatočný kontext kódu napísaného používateľom a na tomto základe generuje pokračovanie alebo pomáha s výberom kódu pre rôzne funkcie. Avšak je dôležité si uvedomiť, že Copilot generuje kód štatisticky, a nie na základe konkrétnej logiky úlohy, preto môžu byť výsledky rôzne a model nezaručuje správnosť riešení.
 
-\section{Nejaká časť} \label{nejaka}
-
-Z obr.~\ref{f:rozhod} je všetko jasné. 
-
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
-
-
-
-\section{Iná časť} \label{ina}
-
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-Niekedy treba uviesť zoznam:
-
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
-
-Ten istý zoznam, len číslovaný:
+\subsection{Populárne názory a recenzie}
+Od svojho vydania GitHub Copilot vyvolal mnoho diskusií medzi profesionálmi aj začiatočníkmi. Tu sú niektoré z názorov:
 
 \begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
+    \item \textbf{Efektivita a pohodlie} \\
+    Mnoho programátorov ocenilo GitHub Copilot za to, že dokáže výrazne urýchliť proces vývoja. Pomáha s opakujúcimi sa úlohami, ako je písanie testov alebo implementácia štandardných funkcií, čo šetrí čas. Niektorí vývojári hovoria, že sa stal ich neoceniteľným pomocníkom, pretože umožňuje znížiť počet typických chýb a zmenšiť záťaž pri písaní rutinného kódu.
+    
+    \item \textbf{Etické otázky a autorské práva} \\
+    Okolo Copilota vznikli tiež kontroverzie, najmä ohľadom používania kódu z verejných repozitárov. Niektorí vývojári vyjadrujú obavy, že Copilot môže generovať kód založený na projektoch s licenciami, ktoré zakazujú jeho opätovné použitie na komerčné účely. To vyvoláva otázky o právach duševného vlastníctva a etických aspektoch používania takýchto technológií.
+    \begin{quote}
+„Niektorí ľudia sa už sťažujú, že ich kód používa Copilot bez povolenia alebo licencie. Podľa Davisa poskytol Copilotu výzvu „sparse matrix transpose, cs\_“, ale vygenerovaný kód sa podobal na jeho predchádzajúcu open-source prácu. Kód vygenerovaný systémom Copilot však neobsahoval potrebnú licenciu LGPL.“
+\end{quote}
+    
+    \item \textbf{Vplyv na profesiu vývojára} \\
+    Existuje názor, že GitHub Copilot môže znížiť potrebu začiatočníkov, ktorí začínajú s jednoduchými úlohami, pretože Copilot už dokáže vykonávať mnoho z nich. Niektorí vývojári sa obávajú, že to môže viesť k zníženiu počtu dostupných pracovných miest pre začiatočníkov. Iní naopak veria, že Copilot bude užitočný na učenie, pretože pomáha osvojiť si štandardné praktiky kódu a môže pomôcť novým vývojárom rýchlejšie sa zapojiť do profesie.
+    
+    \item \textbf{Kvalita a obmedzenia návrhov Copilota} \\
+    Zatiaľ čo Copilot často generuje správne a užitočné fragmenty kódu, niekedy robí chyby alebo ponúka neoptimálne riešenia. To vedie k potrebe dôkladnej kontroly navrhnutého kódu, najmä pri zložitejších úlohách. Kritici tiež upozorňujú, že Copilot nie vždy rozumie kontextu úlohy, čo môže byť problémom pre vývoj.
 \end{enumerate}
 
+\section{Čo vôbec môže robiť tento prístroj?}
+GitHub Copilot je výkonný nástroj, ktorý pomáha programátorom v rôznych každodenných úlohách. Na základe kontextu kódu, ktorý píše používateľ, môže Copilot navrhovať ďalšie riadky, vytvárať celé funkcie alebo dokonca generovať dokumentáciu. Napriek svojim schopnostiam má Copilot aj svoje obmedzenia a nie je vždy vhodný na všetky úlohy. Pozrime sa na bežné scenáre používania, jeho silné a slabé stránky.
 
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+\subsection{Časté scenáre používania GitHub Copilota}
+\begin{enumerate}
+    \item \textbf{Generovanie základných funkcií a šablón kódu}
+    Copilot je veľmi užitočný pri vytváraní základných funkcií alebo šablón, ktoré sú často podobné v rôznych projektoch. Napríklad, ak programátor potrebuje napísať funkciu na spracovanie reťazcov, manipuláciu s dátumami alebo čítanie údajov z databázy, Copilot dokáže rýchlo ponúknuť hotový vzor, ktorý je možné použiť ako základ.
+    \item \textbf{Automatické vytváranie testov}
+    Testovanie je často zdĺhavá a opakujúca sa úloha. Copilot dokáže generovať základné testovacie prípady na overenie funkčnosti kódu. Hoci výsledné testy môžu vyžadovať manuálnu kontrolu a doladenie, je to užitočná pomoc, ktorá šetrí čas, najmä pri jednotkovom testovaní jednoduchých funkcií.
+    \item \textbf{Dokumentácia a komentáre}
+    Keď píšete kód, Copilot môže pomôcť aj s dokumentáciou a komentármi. Ak má model dostatok kontextu, môže automaticky navrhnúť popis funkcie, vysvetlenie jednotlivých krokov a generovať základnú dokumentáciu pre vaše API. Toto je užitočné najmä pre veľké tímy, kde dokumentácia je nevyhnutná na udržiavanie čitateľnosti kódu.
+    \item \textbf{Generovanie SQL dotazov a manipulácia s dátami}
+    Pre vývojárov pracujúcich s databázami Copilot často uľahčuje generovanie SQL dotazov, najmä pri zložitých filtroch a agregáciách. Dokáže ponúknuť základnú štruktúru SQL dotazov a uľahčiť tak manipuláciu s dátami.
+    \item \textbf{Pomoc pri písaní kódu na rôznych jazykoch}
+    Ak sa programátor zaoberá viacerými jazykmi, Copilot dokáže pomôcť so syntaxou a štruktúrou, najmä v jazykoch, s ktorými nie je používateľ tak dobre oboznámený. Tento nástroj je schopný poskytovať návrhy pre rôzne jazyky, ako sú Python, JavaScript, Java, C++, Go a ďalšie.
+\end{enumerate}
 
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+\subsection{Silné stránky GitHub Copilota – Kedy je najlepší ho používať}
+\begin{enumerate}
+    \item \textbf{Zrýchlenie pri rutinných úlohách}
+    Copilot je obzvlášť užitočný pri písaní opakujúcich sa alebo štandardných častí kódu, ktoré sa často opakujú naprieč projektmi. Napríklad, základné funkcie, šablóny tried alebo štandardné algoritmy môžu byť rýchlo vygenerované, čo ušetrí čas a umožní vývojárovi sústrediť sa na kreatívnejšie časti projektu.
+    \item \textbf{Rýchle prototypovanie}
+    Pri vytváraní rýchlych prototypov, kde nie je nutné mať plne optimalizovaný kód, je Copilot výbornou pomôckou. Umožňuje rýchlo otestovať nápady a vytvoriť základný model aplikácie, ktorý môže byť neskôr manuálne upravený.
+    \item \textbf{Pomoc pre začiatočníkov}
+    Pre menej skúsených programátorov Copilot poskytuje príklady osvedčených postupov a štandardov, ktoré môžu byť vynikajúcim nástrojom na učenie. Pri návrhoch kódu sa používateľ môže naučiť správne konvencie a lepšie pochopiť štruktúru a syntax daného jazyka.
+    \item \textbf{Rýchle písanie testovacích prípadov}
+    Testy môžu byť monotónne a časovo náročné, ale s Copilotom je možné rýchlo vytvoriť základné testovacie prípady. Aj keď nie sú vždy dokonalé, tieto testy môžu slúžiť ako východiskový bod a ušetriť čas pri ich tvorbe.
+\end{enumerate}
 
+\subsection{Slabé stránky GitHub Copilota – Kde je lepšie ho nepoužívať}
+\begin{enumerate}
+    \item \textbf{Komplexné a bezpečnostne citlivé úlohy}
+    Copilot sa nehodí na riešenie zložitých problémov, ktoré vyžadujú hlboké pochopenie špecifických požiadaviek a kontextu projektu. Napríklad, pri písaní bezpečnostného kódu alebo kritických algoritmov je lepšie sa nespoliehať na Copilota, pretože môže generovať riešenia, ktoré neberú do úvahy všetky potenciálne riziká.
+    \item \textbf{Citlivé alebo špecifické obchodné logiky}
+    Copilot nie je vhodný pre úlohy, kde je potrebné presné pochopenie obchodných pravidiel alebo logiky. Nástroj generuje kód na základe bežných vzorov, čo znamená, že môže ignorovať konkrétne detaily alebo výnimky, ktoré sú nevyhnutné pre správne fungovanie kódu v konkrétnom podnikateľskom kontexte.
+    \item \textbf{Etické a právne otázky pri používaní otvoreného kódu}
+    Niektoré vývojárske tímy sa obávajú, že Copilot môže náhodne generovať kód, ktorý je podobný existujúcim dielam s licenciami obmedzujúcimi ich komerčné použitie. Preto by sa mal Copilot používať opatrne, najmä pri projektoch s licenčnými obmedzeniami, aby sa predišlo potenciálnym právnym konfliktom.
+    \item \textbf{Optimalizácia a výkonnosť kódu}
+    Kód vygenerovaný Copilotom môže byť funkčný, ale nie vždy je optimálny. Pri úlohách, kde je kľúčová efektivita a výkonnosť, je lepšie sa spoliehať na manuálne napísaný kód a kontrolovať optimalizáciu namiesto používania Copilota.
+\end{enumerate}
 
+\section{Prečo pravé GitHub to vytvoril?}
+Tato sekcia bude v buducéj verzii članku.
 
-\section{Dôležitá časť} \label{dolezita}
-$$
-\begin{bmatrix} 
-	1 & 2 & 3 & 4 & 5\\
-	6 & 7 & 8 & 9 & 10\\
-	11 & 12 & 13 & 14 & 15 \\
-	16 & 17 & 18 & 19 & 20 \\
-	21 & 22 & 23 & 24 & 25
-\end{bmatrix}
-\quad
-$$
+\section{Prečo GitHub Copilot už je všade?}
+GitHub Copilot sa stal veľmi populárnym medzi vývojármi po celom svete, a to nielen vďaka svojim schopnostiam, ale aj vďaka silnej podpore od GitHubu a jeho materskej spoločnosti Microsoft. Jeho rýchle rozšírenie do mnohých populárnych vývojárskych nástrojov a rozhrania (IDE) je výsledkom viacerých faktorov, vrátane strategických partnerstiev, silnej marketingovej kampane a podpory zo strany komunity. Pozrime sa na tieto aspekty podrobnejšie.
+\begin{enumerate}
+    \item \textbf{Strategické partnerstvá GitHubu a Microsoftu}
+    Microsoft vlastní GitHub od roku 2018, čo umožňuje bezproblémovú integráciu GitHub Copilota do populárnych Microsoft nástrojov, ako je Visual Studio Code (VS Code) a Visual Studio. VS Code je jedným z najpoužívanejších vývojárskych nástrojov, a tým, že Microsoft priamo integroval GitHub Copilot ako rozšírenie, si zabezpečil okamžitý prístup k veľkému množstvu vývojárov.
+Okrem Visual Studio Code je GitHub Copilot dostupný aj v iných integrovaných vývojových prostrediach (IDE), napríklad v JetBrains IDE (ako sú IntelliJ IDEA, PyCharm, a ďalšie nástroje). GitHub spolupracuje s JetBrains a ďalšími populárnymi vývojárskymi nástrojmi, aby integrovali Copilota ako rozšírenie, čím sa rozšírila jeho dostupnosť na rôzne platformy a prostredia.
+    \item \textbf{Silná marketingová kampaň a propagácia}
+    GitHub Copilot bol aktívne propagovaný ako „AI pair programmer“ (umelecký kolega programátor), čo rezonuje medzi vývojármi, ktorí často hľadajú spôsoby, ako zvýšiť svoju produktivitu a zjednodušiť si každodenné úlohy. GitHub spustil rôzne marketingové aktivity, vrátane:
+    \begin{enumerate}
+    \item \textbf{Konferencie a webináre}
+    GitHub prezentuje Copilot na veľkých podujatiach, ako sú GitHub Universe, Microsoft Build a ďalšie vývojárske konferencie, kde predvádzajú najnovšie funkcie a ukazujú reálne príklady z praxe.
+    \item \textbf{Videonávody a dokumentácia}
+    GitHub investoval do kvalitnej dokumentácie a vytvoril sériu videí a tutoriálov, ktoré pomáhajú vývojárom pochopiť, ako Copilot funguje a ako ho môžu integrovať do svojho pracovného postupu.
+    \item \textbf{Spätná väzba od používateľov}
+    GitHub využil spätnú väzbu od beta testerov a early adopters (prvotných používateľov), ktorí šírili pozitívne skúsenosti s používaním Copilot na sociálnych sieťach a vývojárskych fórumach.
+    \end{enumerate}
+    \item \textbf{Popularita Copilota a tlak komunity}
+    Keď GitHub Copilot vyšiel, mnoho vývojárov ho začalo skúšať a šíriť svoje skúsenosti na platformách ako Twitter, Reddit a LinkedIn. Tento „word of mouth“ (ústne podanie) bol pre GitHub veľmi cenný, pretože mnohí vývojári zdieľali reálne príklady, kde Copilot uľahčil ich prácu. Táto vlna záujmu medzi vývojármi vytvorila tlak na ostatné IDE, aby tiež podporovali Copilot, čím zabezpečili, že vývojári v rôznych prostrediach budú mať prístup k tomuto nástroju.
+    \item \textbf{Prístupnosť prostredníctvom cloudovej infraštruktúry}
+    GitHub Copilot funguje na cloudovej infraštruktúre, čo znamená, že všetky výpočty a spracovanie AI prebiehajú na serveroch GitHubu a OpenAI. To znamená, že používatelia nemusia mať výkonný hardvér na svojom počítači, čo zvyšuje jeho prístupnosť pre široké spektrum vývojárov. Vďaka cloudovej infraštruktúre je Copilot prístupný prakticky na každom zariadení, kde funguje podporované IDE.
+    \item \textbf{Cenová politika a dostupnosť}
+    GitHub Copilot je poskytovaný ako platená služba, ale GitHub ponúka výhodné ceny pre individuálnych používateľov a tímy, pričom vývojári v open-source projektoch môžu získať prístup zadarmo. Táto politika robí Copilot cenovo dostupným pre širokú škálu vývojárov, od jednotlivcov až po malé a veľké tímy. Vďaka tomu sa GitHub Copilot stal prístupným riešením pre mnoho vývojárov a jeho používanie sa rýchlo rozšírilo.
+    \item \textbf{Technická podpora a integrácia s GitHubom}
+    GitHub Copilot je tesne integrovaný s GitHubom, čo znamená, že je ľahko dostupný pre milióny vývojárov, ktorí už využívajú GitHub na správu svojich projektov. GitHub pridáva nové funkcie, ako sú Copilot Labs, ktoré umožňujú experimentovať s pokročilými funkciami umelej inteligencie. Okrem toho GitHub pravidelne aktualizuje Copilot, aby zlepšoval jeho funkčnosť a integráciu s ostatnými službami GitHubu, ako sú pull requests a issues.
+\end{enumerate}
 
-
-
- Vzorec geometrickej postupnosi
- 
- $$
-a1 = a1, a2 = a1*q, a3 = a1 * q^2, a4 = a1 * q^3, ...
-$$
-
-
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
 
 
 
 
 \section{Záver} \label{zaver} % prípadne iný variant názvu
+GitHub Copilot predstavuje prelom v oblasti vývoja softvéru a otvára nové možnosti v tom, ako môže umelá inteligencia asistovať programátorom. Vďaka schopnosti generovať kód na základe kontextu a zjednodušovať mnohé každodenné úlohy sa stal obľúbeným nástrojom pre vývojárov po celom svete. Integrácia s rôznymi IDE a silná podpora od Microsoftu zabezpečili, že Copilot je široko dostupný a jeho popularita stále rastie.
+
+Napriek mnohým výhodám má Copilot aj svoje limity, najmä v prípadoch, keď ide o bezpečnostne citlivý alebo optimalizovaný kód. Vývojári by mali byť pri jeho používaní ostražití a zvažovať, kedy je jeho použitie vhodné. Avšak pri rutinných a menej kritických úlohách dokáže GitHub Copilot výrazne zrýchliť a zjednodušiť prácu, čím zvyšuje produktivitu a umožňuje vývojárom sústrediť sa na náročnejšie aspekty svojich projektov.
+
+V závere môžeme povedať, že GitHub Copilot predstavuje významný krok vpred v oblasti automatizácie programovania. Aj keď nedokáže nahradiť ľudskú kreatívnu inteligenciu, je skvelým „spolupracovníkom“ pre programátorov a zdá sa, že jeho úloha v softvérovom vývoji bude s časom len rásť. Spoločnosti ako GitHub a Microsoft naďalej investujú do vývoja podobných AI nástrojov, čo naznačuje, že budúcnosť vývoja softvéru bude zahŕňať čoraz viac inteligentných asistentov, ako je GitHub Copilot.
+
 \includegraphics{STU-FIIT-ancnh.pdf}
 
 
