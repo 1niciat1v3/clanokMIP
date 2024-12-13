@@ -1,17 +1,19 @@
 # Fdb version 4
-["bibtex clanok"] 1730671321.76496 "clanok.aux" "clanok.bbl" "clanok" 1730671321.89225 0
-  "./literatura.bib" 1730671321.50858 1107 9bf284e351725170a90125877184e5d3 ""
-  "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "clanok.aux" 1730670588.20364 2217 ef9710686819c7ef83330f525be0016d "pdflatex"
+["bibtex clanok"] 1734109026.01574 "clanok.aux" "clanok.bbl" "clanok" 1734109028.17838 2
+  "./literatura.bib" 1734107390.47222 2197 af6904d543466f65f9cb3e1246d37f13 ""
+  "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/alpha.bst" 1292289607 23907 a5f93555796fb564b924339521f10a7c ""
+  "clanok.aux" 1734109027.65189 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
   (generated)
   "clanok.bbl"
   "clanok.blg"
   (rewritten before read)
-["pdflatex"] 1730670587.61396 "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" "clanok.pdf" "clanok" 1730671321.89231 0
-  "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" 1730670585.28163 16259 f8d83da226ce99d8c3f01394ad4a4333 ""
+["pdflatex"] 1734109026.35199 "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" "clanok.pdf" "clanok" 1734109028.17857 2
+  "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" 1734109023.72692 21200 4a9541c86da985678a60407b99ab5bdb ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -41,6 +43,8 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cs/cstt9.tfm" 1136768653 1276 c0504c18a6a7a61858690795c8c0b15a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb" 1215737283 162624 9dcc92cd3b1dfe2ecc80e6da7f2eb6bd ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb" 1215737283 149037 995a6f1e12c1d647b99b1cf55db78699 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx10.pfb" 1136849748 33323 7572c031b308b577f5f3cb67f74e81d8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/cs/csbx12.pfb" 1136849748 33135 4d457754751d0f989450d5c86169cb25 ""
@@ -90,6 +94,7 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty" 1705352648 5048 425739d70251273bf93e3d51f3c40048 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/cite/cite.sty" 1425427964 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
+  "/usr/local/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty" 1561238569 51697 f8f08183cd2080d9d18a41432d651dfb ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1683144721 11876 6ef493863ae0d7a984706973240c2237 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
@@ -126,11 +131,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726489457.51975 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726489434 8221425 b70919ed72c80aeb817a3c6c6f55d7f7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "STU-FIIT-ancnh.pdf" 1349792236 249937 075509f210d38344df1a39189d2c7175 ""
-  "clanok.aux" 1730670588.20364 2217 ef9710686819c7ef83330f525be0016d "pdflatex"
-  "clanok.bbl" 1730671321.87827 959 4a6a000ead8495e4e366b61a6c026d67 "bibtex clanok"
-  "clanok.out" 1730670588.20436 2662 00e25534161402e21d71307b1491d26e "pdflatex"
-  "clanok.tex" 1730670585.28163 16259 f8d83da226ce99d8c3f01394ad4a4333 ""
+  "clanok.aux" 1734109027.65189 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
+  "clanok.bbl" 1734109026.16787 1977 0027290f956158c68fc6bcd16aab876f "bibtex clanok"
+  "clanok.out" 1734109027.65293 2773 0c742bec13588a2e4edda8f9387be814 "pdflatex"
+  "clanok.tex" 1734109023.72692 21200 4a9541c86da985678a60407b99ab5bdb ""
+  "graph.png" 1734108000.66679 205124 81d3f865c38b1d83e79aec8820195923 ""
   (generated)
   "clanok.aux"
   "clanok.log"
