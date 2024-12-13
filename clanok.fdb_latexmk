@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex clanok"] 1734109026.01574 "clanok.aux" "clanok.bbl" "clanok" 1734109028.17838 2
+["bibtex clanok"] 1734109026.01574 "clanok.aux" "clanok.bbl" "clanok" 1734109209.28961 2
   "./literatura.bib" 1734107390.47222 2197 af6904d543466f65f9cb3e1246d37f13 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/alpha.bst" 1292289607 23907 a5f93555796fb564b924339521f10a7c ""
-  "clanok.aux" 1734109027.65189 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
+  "clanok.aux" 1734109208.86107 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
   (generated)
   "clanok.bbl"
   "clanok.blg"
   (rewritten before read)
-["pdflatex"] 1734109026.35199 "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" "clanok.pdf" "clanok" 1734109028.17857 2
-  "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" 1734109023.72692 21200 4a9541c86da985678a60407b99ab5bdb ""
+["pdflatex"] 1734109207.52494 "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" "clanok.pdf" "clanok" 1734109209.2898 2
+  "/Users/nikitakostrov/FIIT/HOMEWORK-NK/MIP/gitclanok/clanok.tex" 1734109205.16089 21201 21f067042e99f4297adba7c0a9ab022b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm" 1136768653 1536 12e8c510d3e158fdd0e9a42e75118bd9 ""
@@ -131,10 +131,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726489457.51975 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1726489434 8221425 b70919ed72c80aeb817a3c6c6f55d7f7 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "clanok.aux" 1734109027.65189 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
+  "clanok.aux" 1734109208.86107 2959 ff21f5d4d79af73f48e945b459575b9a "pdflatex"
   "clanok.bbl" 1734109026.16787 1977 0027290f956158c68fc6bcd16aab876f "bibtex clanok"
-  "clanok.out" 1734109027.65293 2773 0c742bec13588a2e4edda8f9387be814 "pdflatex"
-  "clanok.tex" 1734109023.72692 21200 4a9541c86da985678a60407b99ab5bdb ""
+  "clanok.out" 1734109208.8621 2773 0c742bec13588a2e4edda8f9387be814 "pdflatex"
+  "clanok.tex" 1734109205.16089 21201 21f067042e99f4297adba7c0a9ab022b ""
   "graph.png" 1734108000.66679 205124 81d3f865c38b1d83e79aec8820195923 ""
   (generated)
   "clanok.aux"
